@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000'
+  baseURL: 'https://xeno-crm-backend-wfaa.onrender.com'
 })
 
 export const getCustomers = () => api.get('/api/customers')
